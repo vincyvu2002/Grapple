@@ -110,9 +110,7 @@ public class Character {
 			if (wasMoving == Moving.LEFT) {
 				index += 12;
 			}
-		}
-		
-		else if (moving == Moving.NONE) {
+		} else if (moving == Moving.NONE) {
 			index = 0;
 			if (wasMoving == Moving.LEFT) {
 				index += 12;
